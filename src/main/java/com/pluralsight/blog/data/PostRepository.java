@@ -42,7 +42,7 @@ public class PostRepository {
             new Post(8L, "SD Card Reader",
                     "When a stranger passes us a top secret SD card the adventure begins.  Jason Bourne says, \"Hi\".",
                     "When a stranger passes us a top secret SD card the adventure begins.  Jason Bourne says, \"Hi\".",
-                    "Sarah Holderness", new Date())));
+                    "Sarah", new Date())));
 
     public List<Post> getAllPosts() {
         return ALL_POSTS;
